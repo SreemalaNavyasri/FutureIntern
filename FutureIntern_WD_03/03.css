@@ -1,0 +1,72 @@
+/* Background with gradient */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+/* Container styling */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading styling */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input field styling */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Conversion options styling */
+.conversion-options {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff7e5f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff5722;
+}
+
+/* Result display styling */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
